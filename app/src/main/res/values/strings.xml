@@ -1,0 +1,67 @@
+<resources>
+    <string name="register">do not have an acount register insted</string>
+    <string name="app_name">Grownups</string>
+    <string name="hello">Hello!</string>
+    <string name="main_screen">everything is OK we will let know if something happens.</string>
+    <string name="mail">e-mail</string>
+    <string name="password">password</string>
+    <string name="ok">OK</string>
+    <string name="call_neighbour">call neighbour</string>
+    <string name="connect_to_camera">connect to camera</string>
+    <string name="call_help">call help</string>
+    <string name="neighbours">Eighbours list:</string>
+    <string name="title_activity_login2">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="warning_history">warning history</string>
+    <string name="details">details</string>
+    <string name="sign_out">sign out</string>
+    <string name="nemu">menu</string>
+    <string name="menu">menu</string>
+    <string name="login">already have an account? Log in!</string>
+    <string name="back">back</string>
+    <string name="Phone_Number">Phone number</string>
+    <string name="Name">Name:</string>
+    <string name="ID">ID</string>
+    <string name="level">level</string>
+    <string name="data_and_time"><![CDATA[date & time]]></string>
+    <string name="chosen_Help">chosen help</string>
+    <string name="add_friend">add friend</string>
+    <string name="add_neighbor">add neighbor</string>
+    <string name="neighbor_name">neighbor name</string>
+    <string name="neighbor_number">neighbor number</string>
+    <string name="options_title">options screen</string>
+    <string name="add_details">add details</string>
+    <string name="call_police">call  police</string>
+    <string name="call_medical_help">call medical help</string>
+    <string name="add_member">register</string>
+    <string name="id">ID:</string>
+    <string name="neighbours_information">Neighbors Information:</string>
+    <string name="add_family_member">add family member ></string>
+    <string name="email">Email:</string>
+    <string name="password_2">Password:</string>
+    <string name="confirm_password">Confirm your password:</string>
+    <string name="street_name">Street Name</string>
+    <string name="apartment">Apartment</string>
+    <string name="builing">Bbuilding</string>
+    <string name="biuling">Biulding</string>
+    <string name="building">Building</string>
+    <string name="channel_name">GrownAppMessages</string>
+    <string name="channel_description">chaner description</string>
+    <string name="update">UPDATE</string>
+    <string name="register_ok">register!</string>
+    <string name="call_fire_fighter">call fire fighter</string>
+    <string name="open_phone">open phone</string>
+    <string name="number">Neighbor Phone Number</string>
+    <string name="date">date</string>
+</resources>

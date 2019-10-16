@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/ic_warnings"
+        android:title="@string/warning_history"
+        app:showAsAction="never"></item>
+    <item android:id="@+id/ic_log_out"
+        android:title="@string/sign_out"
+        app:showAsAction="never"></item>
+</menu>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:gravity="center"
+        android:text="Register"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/layout"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/check_box_video_cameras"
+        app:layout_constraintTop_toBottomOf="@+id/txtvTitle"
+        app:layout_constraintVertical_chainStyle="spread_inside">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="17dp"
+            android:text="Member Information:"
+            android:textSize="16dp"
+            android:textStyle="bold|italic" />
+
+
+        <EditText
+            android:id="@+id/txt_register_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/id" />
+
+
+        <EditText
+            android:id="@+id/txt_register_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Name" />
+
+
+        <EditText
+            android:id="@+id/txt_register_street_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/street_name" />
+
+        <EditText
+            android:id="@+id/txt_register_building"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/building" />
+
+        <EditText
+            android:id="@+id/txt_register_apartment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/apartment" />
+
+        <EditText
+            android:id="@+id/txt_register_number"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Phone_Number" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_add_neighbor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:text="@string/add_neighbor"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+
+        app:layout_constraintBottom_toTopOf="@+id/btn_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_register_ok"
+        app:layout_constraintTop_toBottomOf="@+id/ltv_neighbor" />
+
+    <Button
+        android:id="@+id/btn_register_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:background="@drawable/rounded_button"
+        android:padding="15dp"
+        android:text="@string/register_ok"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_login"
+        app:layout_constraintEnd_toStartOf="@id/btn_add_neighbor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ltv_neighbor" />
+
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded_button"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/check_box_video_cameras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:text="Video Cameras"
+        app:layout_constraintBottom_toTopOf="@+id/layout_family_member"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout" />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <!---->
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_family_member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/txtv_neigbours_title"
+        app:layout_constraintTop_toBottomOf="@+id/check_box_video_cameras">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="17dp"
+            android:text="Family Member Information:"
+            android:textSize="16dp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/txt_family_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Name"/>
+
+
+
+        <EditText
+            android:id="@+id/txt_family_number"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Phone_Number"
+            />
+
+
+
+        <EditText
+            android:id="@+id/txt_email_register"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"/>
+
+
+
+
+
+        <EditText
+            android:id="@+id/txt_password_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password_2"
+            />
+
+
+
+        <EditText
+            android:id="@+id/txt_second_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/confirm_password" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txtv_neigbours_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dp"
+        android:text="@string/neighbours_information"
+        android:textSize="16dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintTop_toBottomOf="@+id/layout_family_member"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/ltv_neighbor"
+        app:layout_constraintTop_toBottomOf="@+id/txtv_neigbours_title" >
+        <EditText
+            android:id="@+id/txt_nei_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Name"    />
+
+        <EditText
+            android:id="@+id/txt_nei_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Phone_Number" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
+</ScrollView>

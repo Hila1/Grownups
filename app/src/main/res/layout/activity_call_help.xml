@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/call_police"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/call_police"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/open_phone"
+        app:layout_constraintBottom_toTopOf="@id/call_fire_fighter"
+        android:background="@drawable/rounded_button"
+        android:layout_margin="25dp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/call_medical_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/call_medical_help"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/open_phone"
+        android:background="@drawable/rounded_button"
+        android:padding="25dp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/call_fire_fighter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/call_fire_fighter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/call_police"
+        android:background="@drawable/rounded_button"
+        android:padding="25dp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/open_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/open_phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/call_medical_help"
+        app:layout_constraintBottom_toTopOf="@+id/call_police"
+        android:background="@drawable/rounded_button"
+        android:padding="25dp"
+        android:textColor="@color/white"
+        />
+
+</android.support.constraint.ConstraintLayout>

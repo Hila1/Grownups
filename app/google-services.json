@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "893194901186",
+    "firebase_url": "https://mygrownupsapp.firebaseio.com",
+    "project_id": "mygrownupsapp",
+    "storage_bucket": "mygrownupsapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893194901186:android:c89cd3ad3f26ee03",
+        "android_client_info": {
+          "package_name": "com.example.shula.mygrownupsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893194901186-4aaega0ogrmf22mt3thd8ci7vhcrjrj6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shula.mygrownupsapp",
+            "certificate_hash": "a7c036fdd8d13af640578bc470752bbd9043c473"
+          }
+        },
+        {
+          "client_id": "893194901186-eno7t4g9cmmhq7k86rpsvrc5fbkonhng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeUCqXzYRo4wLLuWq1Rc3K3I9sTtlin34"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893194901186-eno7t4g9cmmhq7k86rpsvrc5fbkonhng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
